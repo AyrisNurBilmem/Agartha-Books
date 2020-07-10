@@ -1,0 +1,167 @@
+body{
+    text-align: center;
+    
+}
+
+
+
+/*    Title          */
+#title{
+    background-color: #0A0909;
+    color: white;
+    padding: 7% 15%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.big-header{
+    font-weight: bold;
+    font-family: 'Fondamento', cursive;
+    line-height: 1.5;
+    font-size: 60px;
+}
+
+.bookshelf{
+    width: 90%;
+    margin-left: 100px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.row{
+    margin: 40px auto 0;
+}
+
+
+
+/*        Navbar      */
+
+
+
+.navbar{
+    background-color: #0A0909;
+}
+.nav-item{           /*  contact sellers download  */
+    padding: 5px 20px 0px;
+    
+}
+.brand{                    /* Agartha */
+    padding-left: 40px;
+    padding-top: 5px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
+}
+
+
+
+
+/*       FEATURES    */
+
+#features{
+    text-align: center;
+    padding: 7% 7%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.icon{
+    padding-bottom: 12px;                   /* icons on the top of each feature */
+}
+.icon:hover{
+    color: #069560;
+}
+
+
+
+/*      TESTIMONIALS  */
+
+#testimonials{
+    text-align: center;
+    background-color: #035949;
+    line-height: 4;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 20%;
+
+}
+
+.testi-heading
+{
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+.testimonial-img{
+  width: 60px;
+  margin-right: 20px;
+}
+
+
+
+/*      SELLERS      */
+
+
+#sellers{
+    padding: 7% 10%;
+    font-family: 'Zilla Slab', serif;
+}
+.h2-sellers{
+    font-size: 3.5rem;
+}
+
+.p-sellers{
+    font-size: 2rem;
+}
+
+/*    CALL TO ACTION      */
+
+#cta{
+    background-color: #06623b;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    padding: 7% 10%;
+}
+.cta-h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/*      FOOTER         */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.footer-img{
+    padding: 4% 2% 4% 2%;
+}
+
+.footer-img:hover{
+    color: #035949;
+}
+
+/*      MEDIA         */
+
+/*      title      */
+@media (max-width: 1028px){
+#title{
+    text-align: center;
+}
+
+.bookshelf{
+    margin :auto;
+}
+
+}
+
+/*  sellers  */
+
+@media (max-width: 1028px){
+    padding-bottom: 7%;
+}
